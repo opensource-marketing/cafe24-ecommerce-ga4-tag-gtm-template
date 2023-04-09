@@ -183,6 +183,13 @@ const success = () => {
   });
   
   gtag("event", eventName, parameter(eventName));
+
+  log(
+    "%c\n\nGA4 세팅, 대시보드 제작은 물론 인사이트까지 뽑아주는 데이터 분석 서비스가 필요하시다면%c오픈소스마케팅에 문의해 주세요.%c\n\n홈페이지: https://osoma.kr/data-consulting/  \n\n",
+    "background-color:#000000; color:#ffffff; font-size:16px;",
+    "background-color:#36bcee; color:#ffffff; font-size:20px;",
+    "color:#ffffff; font-size:16px;"
+  );
   
   data.gtmOnSuccess();
 };
@@ -686,10 +693,13 @@ ___WEB_PERMISSIONS___
           "key": "environments",
           "value": {
             "type": 1,
-            "string": "debug"
+            "string": "all"
           }
         }
       ]
+    },
+    "clientAnnotations": {
+      "isEditedByUser": true
     },
     "isRequired": true
   }
