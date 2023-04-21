@@ -1,5 +1,9 @@
 homepage: "https://osoma.kr"
-documentation: "https://oso.ma/cafe24-gtm-tag-template"
+documentation: "https://osoma.kr/blog/gtm-template-cafe24-ga4/"
 versions:
+  # Latest version
+  - sha: ef77a6a5f86507739b477b36d12ea2a2c72378d3
+    changeNotes: bug fix
+  # Older versions
   - sha: 5f34034743494c6a450b2cce23d206101cafd4cd
     changeNotes: Initial release.
