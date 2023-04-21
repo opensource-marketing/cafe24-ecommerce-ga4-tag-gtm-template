@@ -185,10 +185,10 @@ const success = () => {
   gtag("event", eventName, parameter(eventName));
 
   log(
-    "%c\n\nGA4 세팅, 대시보드 제작은 물론 인사이트까지 뽑아주는 데이터 분석 서비스가 필요하시다면%c오픈소스마케팅에 문의해 주세요.%c\n\n홈페이지: https://osoma.kr/data-consulting/  \n\n",
+    "%c\n\nGA4 세팅 - 데이터 분석 시각화 - 인사이트 컨설팅 전문%c\n오픈소스마케팅%c\n\n웹사이트: https://osoma.kr/data-consulting/  \n문의하기: consulting@osoma.kr \n\n",
     "background-color:#000000; color:#ffffff; font-size:16px;",
-    "background-color:#36bcee; color:#ffffff; font-size:20px;",
-    "color:#ffffff; font-size:16px;"
+    "background-color:#5d91f6; color:#ffffff; font-size:22px; font-weight:bold;",
+    "color:#ffffff; font-size:14px; line-height:1.4;"
   );
   
   data.gtmOnSuccess();
